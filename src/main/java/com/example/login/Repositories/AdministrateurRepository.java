@@ -9,9 +9,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AdministrateurRepository extends JpaRepository<Administrateur, String> {
     Optional<Administrateur> findByEmail(String email);
-<<<<<<< HEAD
     List<Administrateur> findAllByEmail(String email);
-=======
-List<Administrateur> findAllByEmail(String email);
-
 }
